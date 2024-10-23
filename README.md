@@ -12,3 +12,7 @@ git clone --depth 1 https://github.com/IAR-CYBER-143/Wi-Fi-HACK
 # Now Run
 
 sudo python Wi-Fi-HACK/RISAT-Shot.py -i wlan0 -K
+
+then exit and again run 
+
+sudo python Wi-Fi-HACK/RISAT-Shot.py -i wlan0 --iface-down -K
